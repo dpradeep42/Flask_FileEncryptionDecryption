@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
-from wtforms import SubmitField, TextField
+from wtforms import StringField, SubmitField
 
 
 class ReadPath(FlaskForm):
-    path = TextField('File Path')
+    path = StringField('File Path')
     submit = SubmitField('Submit')

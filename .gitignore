@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local environment
+.env
+*.key
+
+# IDE
+.idea/
+
+# Uploads and encryption outputs
+uploads/
+EncryptedFile.csv
+DecryptedFile.csv
